@@ -1,0 +1,5 @@
+--> python is developed by guido van rossum in 1991
+--> single line comments (#)
+--> multi line comments (''' ''')
+--> REPL : Read Evaluate Print Loop
+--> Terminal can be used as REPL by writing opening terminal --> python --> enter --> write expressions

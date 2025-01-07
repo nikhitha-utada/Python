@@ -9,7 +9,7 @@ each_percent2 = marks2
 each_percent3 = marks3
 total_percent = ((marks1+marks2+marks3)/300)*100
 
-if(each_percent1>=33 and each_percent2>=33 and each_percent3>=33 and total>40):
+if(each_percent1>=33 and each_percent2>=33 and each_percent3>=33 and total_percent>40):
     print("Congratulations you are passed!!!🎉")
 else:
     print("Sorry you are failed!!!🥲")

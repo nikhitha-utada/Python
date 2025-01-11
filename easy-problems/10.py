@@ -9,3 +9,17 @@
 #Method 1:
 str = input("enter a string: ")
 print(str.swapcase())
+
+#Method 2:
+str = input("enter a string: ")
+answer = ""
+for i in str:
+    if i>='A' and i<='Z':
+        answer+=i.lower()
+    elif i>='a' and i<='z':
+        answer+=i.upper()
+    else:
+        answer = "It contains special characters"
+        break
+print(answer)
+

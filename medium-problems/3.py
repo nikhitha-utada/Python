@@ -10,11 +10,11 @@ for i in range(n):
     num = int(input("Enter the element: "))
     arr.append(num)
 for num in arr:
-    check=num+1
+    check=num+1         #number to check should be greater than number in list by 1
     is_prime = True
     for i in range(2,check):
         if check%i==0:
-            is_prime = False
+            is_prime = False    #even if 1 out of that range is divisible then it is not prime so it should be set to false
             break
     if is_prime:
         print(num)

@@ -7,6 +7,7 @@
 # true.
 
 #method-1:
+
 num  = input("enter the number: ")
 is_digit = False
 for i in num:
@@ -16,3 +17,5 @@ for i in num:
         is_digit = False
         break
 print(is_digit)
+
+

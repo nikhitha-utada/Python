@@ -25,6 +25,7 @@ ans=True
 for i in str:
     if i not in num:
         ans=False
+        break
     else:
         ans=True
 print(ans)

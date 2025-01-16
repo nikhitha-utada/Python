@@ -20,3 +20,14 @@ for i in lst:
     j=i.capitalize()
     res=res+j+" "
 print(res)
+
+#method-3:
+str=input("Enter the string : ")
+lst=str.split()
+ans=""
+for i in lst:
+    res=i[0].upper()
+    for j in range(1,len(i)):
+        res+=i[j]
+    ans+=res+" "
+print(ans)

@@ -8,7 +8,7 @@
 # 1 2 3
 # 1 2 3 4
 
-num=int(input("Enter number of rows: "))
+num=int(input("Enter number of rows you want to insert: "))
 for row in range(1,num+1):
     for col in range(1,row+1):
         print(col,end=" ")

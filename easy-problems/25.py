@@ -11,3 +11,12 @@ str=input("enter the string: ")
 str2=str.title()        #title case is a inbuilt method
 print(str2)     
 
+# method-2:
+str=input("enter the string: ")
+lst=str.split(" ")
+print(lst)
+res=""
+for i in lst:
+    j=i.capitalize()
+    res=res+j+" "
+print(res)

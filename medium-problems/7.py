@@ -8,6 +8,14 @@
 # 1 2 3
 # 1 2 3 4
 
+
+#method-1:
+print("1")
+print("1 2")
+print("1 2 3")
+print("1 2 3 4")
+
+#method-2:
 num=int(input("Enter number of rows you want to insert: "))
 for row in range(1,num+1):
     for col in range(1,row+1):

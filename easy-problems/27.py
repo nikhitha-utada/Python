@@ -18,4 +18,15 @@ for i in num:
         break
 print(is_digit)
 
+#method-2:
+str=input("Enter the string : ")
+num="0123456789"
+ans=True
+for i in str:
+    if i not in num:
+        ans=False
+    else:
+        ans=True
+print(ans)
+
 

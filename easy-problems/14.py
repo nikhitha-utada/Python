@@ -14,3 +14,13 @@ for i in range(0,n):
     arr.append(element)
 print(sum(arr))
 
+# method-2:
+n = int(input("enter the number of elements: "))
+arr=[]
+for i in range(0,n):
+    element = int(input("enter the element: "))
+    arr.append(element)
+sum=0
+for i in arr:
+    sum+=i
+print(sum)

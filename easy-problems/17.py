@@ -6,13 +6,13 @@
 
 
 #method-1:
-# n = int(input("enter the number of elements: "))
-# arr=[]
-# for i in range(0,n):
-#     element = int(input("enter the element: "))
-#     arr.append(element)
+n = int(input("enter the number of elements: "))
+arr=[]
+for i in range(0,n):
+    element = int(input("enter the element: "))
+    arr.append(element)
 
-# print(arr[::-1])
+print(arr[::-1])
 
 #method-2:
 n = int(input("enter the number of elements: "))

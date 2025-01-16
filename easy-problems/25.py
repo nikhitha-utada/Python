@@ -8,6 +8,6 @@
 
 #method-1:
 str=input("enter the string: ")
-str2=str.title()
-print(str2)
+str2=str.title()        #title case is a inbuilt method
+print(str2)     
 

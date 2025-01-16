@@ -9,3 +9,9 @@
 
 str = input("enter the string: ")
 print(str[::-1])
+
+# method-2:
+str = input("enter the string: ")
+for i in range(len(str)-1,-1,-1):
+    print(str[i],end="")
+

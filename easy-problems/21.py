@@ -15,3 +15,9 @@ str = input("enter the string: ")
 for i in range(len(str)-1,-1,-1):
     print(str[i],end="")
 
+#method-3:
+str = input("enter the string: ")
+str2=""
+for i in range(len(str)-1,-1,-1):
+    str2+=str[i]
+print(str2)

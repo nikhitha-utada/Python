@@ -5,7 +5,7 @@
     # Best case scenario: O(1)
     # Average case scenario : O(n)
     # Worst case scenario : O(n)
-#space complexity: O(1)
+#Space complexity: O(1)
 
 #algorithm:
 

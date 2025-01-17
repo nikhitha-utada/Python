@@ -1,13 +1,20 @@
 # checks the key with each and every element of the array from the beginning till the end..if element is found it return the index of the first occurence of that element or if the element is not found it returns -1
 # key --> element to be searched
 # linear search is also called as sequential search
+#Time and Space Complexities:
 #Time complexity:
     # Best case scenario: O(1)
     # Average case scenario : O(n)
     # Worst case scenario : O(n)
 #Space complexity: O(1)
 
-#algorithm:
+# Applications:
+    # When we have an unsorted array or list, linear search is most commonly used
+    # Small Data Sets
+# Disadvantages:
+    # Not suitable for large arrays as it has a time complexity of O(N), which in turn makes it slow for large datasets.
+
+#Algorithm:
 
 #method-1:
 def linear_search(arr,key): 

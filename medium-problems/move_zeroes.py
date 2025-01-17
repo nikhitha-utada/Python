@@ -15,3 +15,15 @@ for i in arr:
 print(arr)
 print(arr2)
 print(arr+arr2)
+
+
+#method-2:
+arr=list(map(int,input("Enter the elements : ").split()))
+count=0
+for i in arr:
+    if i==0:
+        count+=1
+        arr.remove(i)
+for i in range(0,count):
+    arr.append(0)
+print(arr)

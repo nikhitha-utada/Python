@@ -20,7 +20,7 @@ for i in range(0,n):
 key = int(input("Enter the key to be searched: "))  
 print(linear_search(arr,key))  
 
-#method-2:
+# #method-2:
 def linear_search(arr,key): 
     for i in arr:
         if i==key:
@@ -32,6 +32,28 @@ arr=[]
 for i in range(0,n):
     element = int(input("enter the element of the array: "))
     arr.append(element)
-key = int(input("Enter the key to be searched: "))  
+key = int(input("Enter the key to be searched: ")) 
 print(linear_search(arr,key))  
+
+#method-3:
+
+N = int(input("enter the number of elements: "))
+arr=[]
+for i in range(0,N):
+    element = int(input("enter the element of the array: "))
+    arr.append(element)
+key = int(input("Enter the key to be searched: ")) 
+
+def search(arr, N, key):
+    for i in range(0, N):
+        if (arr[i] == key):
+            return i
+    return -1
+
+    # Function call
+result = search(arr, N, key)
+if(result == -1):
+    print("Element is not present in array")
+else:
+    print("Element is present at index", result)
 

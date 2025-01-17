@@ -22,4 +22,3 @@ for i in range(0,n):
 print(sum_of_even(arr))
 
 
-

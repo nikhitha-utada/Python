@@ -1,3 +1,5 @@
+# Create a class “Programmer” for storing information of few programmers working at Microsoft. 
+
 class Programmer:
     company = "microsoft"
     def __init__(self,name,role,salary):    # constructor function to initialize the object values

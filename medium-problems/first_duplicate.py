@@ -5,14 +5,6 @@
 # Input: [2, 1, 3, 5, 3, 2]
 # Output: 3
 
-# arr=list(map(int,input("Enter the array elements : ").split()))
-# res=[]
-# for i in arr:
-#     for j in range(arr.index(i)+1,len(arr)):
-#         if i==arr[j]:
-#             res.append(i)
-#             break
-# print(res)
 
 def first_duplicate(arr):
     seen = set()

@@ -17,4 +17,11 @@ for i in range(0,k):
     lst.pop(-1)
 print(lst)
 
-
+#method-02:
+arr=list(map(int,input("Enter the elements : ").split()))
+check=int(input("Enter the value:"))
+arr1=[]
+arr1=arr[(len(arr)-check):] + arr[0:(len(arr)-check)]
+print(arr[(len(arr)-check):])
+print(arr[0:(len(arr)-check)])
+print(arr1)

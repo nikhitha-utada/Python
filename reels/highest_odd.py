@@ -6,11 +6,11 @@
 num = int(input("Enter the number: "))
 big = 0
 while(num>0):
-    last = num%10
-    if last%2==0:
+    last = num%10           
+    if last%2==0:       # if the number is even then remove last digit
         num=num//10
     else:
-        big = num
+        big = num       # if once odd number is hit then return that number
         break
 print(big)
 

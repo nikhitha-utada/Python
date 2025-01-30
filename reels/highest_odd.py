@@ -13,3 +13,15 @@ while(num>0):
         big = num
         break
 print(big)
+
+#Method - 02:
+string = input("Enter the string : ")
+str1=""
+for i in string[::-1]:
+    i=int(i)
+    if i % 2 !=0:
+        break
+    else:
+        if i % 2 == 0:
+            string = string[0:-1]
+print(string)

@@ -16,5 +16,19 @@ for i in str:
 print("["+res+"]")
 
 
+# method - 02:
+def flatten_array(arr):
+    result = []
+    for i in arr:
+        if type(i) == list:  # Check if the element is a list
+            result.extend(flatten_array(i))  # Recursively flatten the list
+        else:
+            result.append(i)  # Append non-list elements
+    return result
 
+# Taking input from the user
+nested_list = eval(input("Enter a nested list: "))  # Example: [1, [2, [3, [4]], 5]]
+
+# Flatten and print the result
+print("Flattened list:", flatten_array(nested_list))
 
